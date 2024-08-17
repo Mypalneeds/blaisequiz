@@ -334,6 +334,6 @@ quizForm.addEventListener('submit', (event) => {
 
 window.onload = () => {
     generateQuiz();
-    startTimer(400);
+    startTimer(40000);
     emailjs.init("QGBB5fusm3TfVtof5");
 };
